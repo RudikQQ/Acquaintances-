@@ -10,9 +10,9 @@
 int number = new Random().Next(100, 1000);
 Console.WriteLine($"Случайное трехзначное число из отрезка 100-999 -> {number}");
 
-int first = First(number);
-Console.WriteLine($"удаляем вторую цифру -> {first}");
-int First(int num) 
+int res = RemoveSecondDigit(number);
+Console.WriteLine($"удаляем вторую цифру -> {res}");
+int RemoveSecondDigit(int num) 
 {
    int num1 = num / 100;
    int num3 = num % 10;
