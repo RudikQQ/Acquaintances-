@@ -9,17 +9,17 @@ Console.Write("Введите натуральное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
 
-void SquareTable(int number) 
+void SquareTable(int number)
 {
 
-int count = 1;
+    int count = 1;
 
 
-while (count <= number)
-{
-    Console.WriteLine($"|{count} | {Math.Pow(count, 2)}|");
-    count++;
-}
+    while (count <= number)
+    {
+        Console.WriteLine($"|{count} | {Math.Pow(count, 2)}|");
+        count++;
+    }
 }
 SquareTable(number);
 
