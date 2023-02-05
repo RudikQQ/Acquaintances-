@@ -13,7 +13,7 @@ int num = Weekend(number);
 int Weekend(int number)
 {
     num = 1;
-    if (number < 8) ;
+    if (number < 8)
 
     if (number == 1)
     {
